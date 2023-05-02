@@ -1,0 +1,199 @@
+.container {
+    display: flex;
+    height: 150px;
+    width: 100%;
+}
+
+.container img {
+    width: 40px;
+    height: 80px;
+}
+
+.Logo {
+    display: flex;
+    margin-top: 40px ;
+    margin-left: 150px;
+    margin-right: 550px;
+    font-weight: bolder;
+}
+
+.container h4 {
+    margin: auto 50px;
+    width: 100px;
+    font-weight: lighter;
+    font-size: larger;
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.Section2 {
+    width: 100hw;
+    height: 60vh;
+    background: rgb(6,60,69);
+    background: linear-gradient(90deg, rgba(6,60,69,1) 0%, rgba(38,58,63,1) 0%, rgba(145,217,228,1) 0%, rgba(92,81,81,0) 0%, rgba(0,0,0,0.659528716271665) 0%, rgba(6,60,69,1) 100%), url("/pexels-pixabay-73871.jpg");
+    padding: 300px 0px 0px 150px;
+    background-size: cover;
+    overflow-x: hidden;
+    color: white;
+}
+
+.Section2 .Head2{
+   font-size: 65px;
+   max-width: 700px;
+   max-height: 500px;
+   text-shadow: 1px 1px 2px black;
+}
+.Section2 .Head3{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 45px;
+    text-shadow: 1px 1px 2px black;
+}
+.Section2 button{
+    margin: 20px 0px 0px 0px;
+    font-weight: lighter;
+    font-size: 28px;
+    padding: 6px 35px;
+    transition-duration: 0.2s;
+}
+.Section2 button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.Section3 .T1{
+    text-align: center;
+    margin: 100px auto;
+    font-size: 24px;
+}
+
+.Container2{
+    justify-content: center;
+    display: flex;
+}
+.Con{
+    margin: 0px 20px;
+    text-align: center;
+    height: 700px;
+    border: 1px solid rgb(58, 29, 29);
+    width: 700px;
+}
+.Con h2{
+    font-weight: bolder;
+}
+.Con h6{
+    opacity: 50%;
+    font-size: 20px;
+}
+.Con h5{
+    font-size: 20px;
+    color: blueviolet;
+    cursor: pointer;
+}
+.SecC{
+    margin-top: 130px;
+    margin-left: 68px;
+}
+.textBox{
+    padding: 40px 60px;
+    display: inline-block;
+    background-color: rgb(58, 39, 39);
+    color: white;
+    position: relative;
+    top: 0px;
+    left: -120px;
+    max-width: 400px;
+}
+.textBox h3{
+    font-size: 25px;
+}
+.textBox h6{
+    font-size: 20px;
+}
+.SecC button{
+    width: 180px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 100;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+.SecC button:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.textBoxMid{
+    left: 100px;
+}
+.Section5{
+    margin-top: 75px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+}
+.Section5 button{
+    height: 50px;
+    width: 175px;
+    background-color: blue;
+    color:white;
+    cursor: pointer;
+}
+.Section5 button:hover{
+    font-weight: 500;
+    font-size: medium;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.Section5 h4{
+    margin: 50px auto;
+    text-align: center;
+    max-width: 400px;
+    opacity: 75%;
+}
+.Section5 p{
+    margin-top: -35px;
+}
+footer .blue{
+    
+    display: flex;
+    color: white;
+    background-color: rgb(153, 76, 170);
+    width: 100%;
+    height: 200px;
+}
+footer .blue .texts{
+    margin: auto 0px auto 40px;
+    max-width: 650px;
+}
+footer .blue button{
+    margin: auto 0px auto 500px;
+    height: 35px;
+    transition-duration: 0.2s;
+}
+
+footer .blue button:hover{
+    font-weight: 500;
+    font-size: medium;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+footer .black{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    color: white;
+    justify-content: space-around;
+}
+
+.footerblk h4{
+    opacity: 40%;
+}
+.footerblk h2{
+    font-size: 20px;
+}
